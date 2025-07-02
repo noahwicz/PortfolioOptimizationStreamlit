@@ -51,15 +51,6 @@ Simulated stock paths
 Simulated portfolio value over time
 
 ---
-## File Structure
-
-.
-├── app.py                  # Streamlit UI
-├── portfolio_optimizer.py # Core optimization & simulation logic
-├── requirements.txt
-└── README.md
-
----
 ## Notes
 Ensures correct dimensions by removing the Lagrange multiplier from the solution
 
