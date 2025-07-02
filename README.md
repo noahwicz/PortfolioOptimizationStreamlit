@@ -25,7 +25,9 @@ A simple Streamlit app to optimize a stock portfolio based on expected returns, 
 3. Run the app:
     streamlit run app.py
 
-Inputs
+---
+## Inputs
+
 Alphas (expected returns)
 
 Risks (standard deviations)
@@ -38,7 +40,8 @@ Total portfolio value
 
 Time horizon, steps, and number of simulations
 
-Outputs
+---
+## Outputs
 Optimized portfolio weights
 
 Dollar amounts to invest in each stock
@@ -47,7 +50,8 @@ Simulated stock paths
 
 Simulated portfolio value over time
 
-File Structure
+---
+## File Structure
 
 .
 ├── app.py                  # Streamlit UI
@@ -55,7 +59,8 @@ File Structure
 ├── requirements.txt
 └── README.md
 
-Notes
+---
+## Notes
 Ensures correct dimensions by removing the Lagrange multiplier from the solution
 
 Uses Geometric Brownian Motion for price simulation
